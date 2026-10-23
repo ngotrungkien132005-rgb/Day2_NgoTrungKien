@@ -1,0 +1,8 @@
+﻿@{
+    ViewData["Title"] = "Wellcome";
+}
+<h1>@ViewData["Title"]</h1>
+@for (var i = 0; i < (int)ViewData["ID"]; i++)
+{
+    <h1>@ViewBag.Message</h1>
+}
